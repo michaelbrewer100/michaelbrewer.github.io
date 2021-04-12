@@ -1,3 +1,5 @@
 # michaelbrewer.github.io
+Michael Brewer's personal portfolio 
 
-Use this for developement: python -m SimpleHTTPServer
+For development run
+```python -m SimpleHTTPServer```
