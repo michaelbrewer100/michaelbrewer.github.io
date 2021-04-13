@@ -35,6 +35,10 @@ a {
     color: #181819;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .body_layout {
     margin: 75px;
     display: grid;
@@ -83,6 +87,7 @@ a {
     font-size: 1.5rem;
     line-height: 2.25rem;
     color: #8C8C90;
+    max-width: 65%;
     margin: 0;
 }
 .solid {
