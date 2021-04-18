@@ -170,6 +170,7 @@ ul.carousel {
     display: grid;
     grid-template-columns: 30vw 1fr;
     grid-template-rows: auto auto ;
+    position: absolute;
 }
 
 .project .caption {
@@ -205,6 +206,9 @@ ul.carousel {
     z-index: 99;
 }
 
+.project.deactive {
+    opacity: 0;
+}
 
 .work_solid {
     grid-row: 6;
